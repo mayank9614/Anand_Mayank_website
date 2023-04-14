@@ -1,0 +1,87 @@
+﻿/* Set margin and padding to 0 for the entire page */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a full-height layout for the page */
+html, body, main {
+    height: 100%;
+}
+
+/* Set the font family and background color for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2F2F2;
+}
+
+/* Style the header section */
+header {
+    background-color: #008080;
+    color: white;
+    padding: 10px;
+}
+
+/* Style the main navigation menu */
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+    nav ul li {
+        margin-right: 20px;
+    }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+/* Style the content sections */
+section {
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #008080;
+    margin: 10px;
+}
+
+    section h2 {
+        color: #008080;
+    }
+
+    section ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    section li {
+        margin-bottom: 10px;
+    }
+
+    section a {
+        color: #008080;
+        text-decoration: none;
+    }
+
+    /* Style the GitHub icon */
+    section img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+/* Set a responsive layout for smaller screens */
+@media only screen and (max-width: 600px) {
+    nav ul {
+        flex-wrap: wrap;
+    }
+
+        nav ul li {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+}
