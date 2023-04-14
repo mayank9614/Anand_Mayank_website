@@ -20,6 +20,7 @@ header {
     background-color: #008080;
     color: white;
     padding: 10px;
+    border-radius: 10px;
 }
 
 /* Style the main navigation menu */
@@ -46,6 +47,7 @@ section {
     background-color: white;
     border: 1px solid #008080;
     margin: 10px;
+    border-radius: 10px;
 }
 
     section h2 {
