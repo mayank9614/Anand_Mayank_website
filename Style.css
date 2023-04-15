@@ -12,7 +12,7 @@ html, body, main {
 /* Set the font family and background color for the entire page */
 body {
     font-family: Arial, sans-serif;
-    background-color: #F2F2F2;
+    background-color: #87CEEB!important; /* Set the overall background color to skyblue */
 }
 
 /* Style the header section */
@@ -44,7 +44,7 @@ nav ul {
 /* Style the content sections */
 section {
     padding: 30px;
-    background-color: white;
+    background-color: white; /* Set the section background color to white */
     border: 1px solid #008080;
     margin: 10px;
     border-radius: 10px;
