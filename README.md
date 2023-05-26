@@ -20,6 +20,6 @@ Lightning Web Components
 Veeva Vault integration
 Salesforce community portal development
 Agile development methodologies
-Contact Me
+Contact Me mayank.96anand@gmail.com
 Thanks for checking out my portfolio website! If you're interested in working together or have any questions, feel free to reach out to me at mayank.96anand@gmail.com .
 
