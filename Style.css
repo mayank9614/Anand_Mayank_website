@@ -87,3 +87,14 @@ section {
             margin-bottom: 10px;
         }
 }
+
+/* Style for profile image */
+img[alt="Profile Picture"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Add some space between sections for better readability */
+section {
+    margin-bottom: 40px;
+}
