@@ -1,7 +1,9 @@
+![Mayank's Profile Picture](/assets/images/mayank_DP.jpg)
+
 ---
 layout: page
 title: About
-permalink: /about/
+# permalink: /about/
 ---
 
 # About Me
