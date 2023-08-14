@@ -20,12 +20,11 @@
 
 title: Mayank Anand
 email: mayank.96anand@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-veeva Developer looking for opportunities in field of Software Development.
+description: veeva Developer looking for opportunities in field of Software Development.
 baseurl: "/Anand_Mayank_website"
 url: "https://mayank9614.github.io/Anand_Mayank_website/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: anand_offbeat
-github_username:  mayank9614
+github_username: mayank9614
 
 # Build settings
 theme: minima
