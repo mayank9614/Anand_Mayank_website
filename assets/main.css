@@ -695,7 +695,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #34495E;
+    background-color: #3485d7;
 }
 
 
@@ -716,7 +716,7 @@ body {
 
 .navigation li a {
     display: block;
-    color: white;
+    color: rgb(32, 115, 65);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -726,7 +726,7 @@ body {
 }
 
 .navigation li a:hover {
-    background-color: #111;
+    background-color: #19b0da;
 }
 
 .clearfix::after {
