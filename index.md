@@ -1,8 +1,7 @@
-![Mayank's Profile Picture](https://mayank9614.github.io/Anand_Mayank_website/assets/images/mayank_DP.jpg)
+![Mayank's Profile Picture](https://mayank9614.github.io/Anand_Mayank_website/images/mayank_DP.jpg)
 ---
 layout: page
 title: About
-# permalink: /about/
 ---
 
 # About Me
