@@ -2,8 +2,7 @@
 layout: page
 title: About
 ---
-<img src="https://mayank9614.github.io/Anand_Mayank_website/images/mayank_DP.jpg" alt="Mayank's Profile Picture" style="width: 150px; float: right; margin-left: 20px;" />
-
+<img src="https://mayank9614.github.io/Anand_Mayank_website/assets/images/mayank_DP.jpg" alt="Mayank's Profile Picture" style="width: 150px; float: right; margin-left: 20px;" />
 
 # About Me
 
@@ -36,3 +35,14 @@ Bachelor of Engineering in Computer Science from BNM Institute of Technology
 ## Certifications:
 
 ADM 201
+
+## Blog Posts
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
