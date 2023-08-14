@@ -1,8 +1,8 @@
-![Mayank's Profile Picture](https://mayank9614.github.io/Anand_Mayank_website/images/mayank_DP.jpg)
 ---
 layout: page
 title: About
 ---
+<img src="https://mayank9614.github.io/Anand_Mayank_website/assets/images/mayank_DP.jpg" alt="Mayank's Profile Picture" style="width: 150px; float: right; margin-left: 20px;" />
 
 # About Me
 
