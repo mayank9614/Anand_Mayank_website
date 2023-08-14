@@ -4,6 +4,7 @@ title: About
 ---
 <img src="https://mayank9614.github.io/Anand_Mayank_website/assets/images/mayank_DP.jpg" alt="Mayank's Profile Picture" style="width: 150px; float: right; margin-left: 20px;" />
 
+
 # About Me
 
 I am a Veeva Developer with more than 4 years of experience in designing and developing custom solutions for Veeva applications. I have hands-on experience in Veeva modules such as MCCP, Order Management, Engage, and Veeva Insight etc. I also have expertise in integrating AWS with Salesforce and developing Alexa Skills. My skill set includes Apex triggers, classes, batch classes, flows, automation in Salesforce, and DevOps experience.
