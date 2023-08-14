@@ -30,7 +30,7 @@ twitter_username: anand_offbeat
 github_username:  mayank9614
 
 # Build settings
-theme: hacker
+theme: minima
 plugins:
   - jekyll-feed
 
