@@ -739,3 +739,22 @@ body {
     clear: both;
     padding-top: 20px;
 }
+.blog-posts {
+  margin-top: 20px;
+}
+
+.blog-post-button {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  text-decoration: none;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.blog-post-button:hover {
+  background-color: #555;
+}

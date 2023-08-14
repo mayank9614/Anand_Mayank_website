@@ -36,13 +36,11 @@ Bachelor of Engineering in Computer Science from BNM Institute of Technology
 
 ADM 201
 
+
 ## Blog Posts
 
-<ul>
+<div class="blog-posts">
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
-    </li>
+    <a href="{{ post.url }}" class="blog-post-button">{{ post.title }}</a>
   {% endfor %}
-</ul>
+</div>
