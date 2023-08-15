@@ -41,6 +41,7 @@ ADM 201
 
 <div class="blog-posts">
   {% for post in site.posts %}
-    <a href="{{ post.url }}" class="blog-post-button">{{ post.title }}</a>
+    <a href="{{ site.baseurl }}{{ post.url }}" class="blog-post-button">{{ post.title }}</a>
   {% endfor %}
 </div>
+
