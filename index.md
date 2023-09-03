@@ -8,6 +8,8 @@ title: About
 
 I am a Veeva Developer with more than 4 years of experience in designing and developing custom solutions for Veeva applications. I have hands-on experience in Veeva modules such as MCCP, Order Management, Engage, and Veeva Insight etc. I also have expertise in integrating AWS with Salesforce and developing Alexa Skills. My skill set includes Apex triggers, classes, batch classes, flows, automation in Salesforce, and DevOps experience.
 
+[Download My Resume](/Anand_Mayank_website/files/RESUME_MAYANK_ANAND_Viatris.pdf)
+
 ## Experience:
 
 - Developed custom solutions for Veeva applications, including MCCP, Order Management, Engage, and Veeva Insight modules.
