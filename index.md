@@ -44,4 +44,5 @@ ADM 201
     <a href="{{ site.baseurl }}{{ post.url }}" class="blog-post-button">{{ post.title }}</a>
   {% endfor %}
 </div>
+[Download My Resume](/Anand_Mayank_website/files/RESUME_MAYANK_ANAND_Viatris.pdf)
 
