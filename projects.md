@@ -10,9 +10,14 @@ permalink: /projects/
 [GitHub Repository](https://github.com/mayank9614/ChromeExtension_SaveURL)
 A Chrome extension to save URLs.
 
+## spotifyApp to search Movie playlist
+[GitHub Repository](https://github.com/mayank9614/ChromeExtension_SaveURL)
+A Chrome extension to save URLs.
+
 ## Movie Recommendation
-[GitHub Repository](https://github.com/mayank9614/Movie_recommendation_MNN)
-A system for movie recommendations.
+[GitHub Repository](https://github.com/mayank9614/spotifyAPPMovieSearch)
+An express App built to directly provide you link for movie playlist
 
 ## Alexa Skill Integration with salesforce
 [GitHub Repository](https://github.com/mayank9614/Alexa-Skill-Kit)
+Alexa skill connection to get salesforce records through alexa voice
