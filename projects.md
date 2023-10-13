@@ -11,11 +11,11 @@ permalink: /projects/
 A Chrome extension to save URLs.
 
 ## spotifyApp to search Movie playlist
-[GitHub Repository](https://github.com/mayank9614/ChromeExtension_SaveURL)
+[GitHub Repository](https://github.com/mayank9614/spotifyAPPMovieSearch)
 A Chrome extension to save URLs.
 
 ## Movie Recommendation
-[GitHub Repository](https://github.com/mayank9614/spotifyAPPMovieSearch)
+[GitHub Repository](https://github.com/mayank9614/Movie_recommendation_MNN)
 An express App built to directly provide you link for movie playlist
 
 ## Alexa Skill Integration with salesforce
