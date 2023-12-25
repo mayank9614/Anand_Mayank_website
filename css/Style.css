@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: blue;
+}
+
+#profile-image {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#profile-image:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+#homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Use full viewport height */
+    background-color: black; /* Set background color for the entire view */
+}
+
+#menu {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    gap: 10px; /* Space between items */
+}
+
+#menu a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-align: center;
+    width: 80%;
+    background-color: blue;
+    color: white;
+    border-radius: 15px; /* Rounded edges */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#menu a:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
