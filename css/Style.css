@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color: blue;
+    color:  #E8E8E8;;
 }
 
 #profile-image {
@@ -8,6 +8,14 @@ body {
     height: auto;
     cursor: pointer;
     transition: transform 0.3s ease;
+}
+
+a {
+    color: #4A90E2; /* Modern blue color for links */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+a:hover {
+    color: #81C1EA; /* Lighter blue on hover */
 }
 
 #profile-image:hover {
@@ -46,4 +54,19 @@ body {
 
 #menu a:hover {
     background-color: #0056b3; /* Darker shade on hover */
+}
+
+button, .button {
+    background-color: #333; /* Dark button background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover, .button:hover {
+    background-color: #444; /* Slightly lighter on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transform: translateY(-2px); /* Slight lift */
 }
