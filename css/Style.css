@@ -4,8 +4,11 @@ body {
 }
 
 #profile-image {
-    width: 200px;
+    width: 200px; /* Adjust as needed */
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
@@ -56,17 +59,27 @@ a:hover {
     background-color: #0056b3; /* Darker shade on hover */
 }
 
-button, .button {
-    background-color: #333; /* Dark button background */
+.button, button {
+    padding: 10px 20px; /* Increase padding for larger buttons */
+    margin-top: 10px; /* Ensure there's space between buttons */
+    font-size: 1rem; /* Adjust font size as needed */
+    display: inline-block;
+    background-color: #007bff; /* Bootstrap primary blue for example */
     color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    text-decoration: none;
     cursor: pointer;
-    transition: all 0.3s ease;
-}
-button:hover, .button:hover {
-    background-color: #444; /* Slightly lighter on hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-    transform: translateY(-2px); /* Slight lift */
-}
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+/* Button Hover Effect */
+
+
+.button:hover, button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: #fff;
+    text-decoration: none;
+  }
+
