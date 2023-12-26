@@ -4,7 +4,7 @@ body {
 }
 
 .profile-image-container {
-    width: 50%; /* or whatever width you prefer */
+    width: 50%; /* or whatever width you prefer updated*/
     padding-top: 50%; /* same value as width for 1:1 aspect ratio */
     position: relative;
 }
