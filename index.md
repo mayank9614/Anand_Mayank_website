@@ -6,8 +6,7 @@ title: About
 
 # About Me
 
-I am a Veeva Developer with more than 5 years of experience in designing and developing custom solutions for Veeva applications.  I also have expertise in integrating AWS with Salesforce and developing Alexa Skills. 
-
+I am a Salesforce Developer with more than 5 years of experience in designing and developing custom solutions for Veeva applications.  I also have expertise in integrating Azure API managment and AWS lambda functions with Salesforce and as well as developing Alexa Skills. 
 
 
 [Download My Resume](/Anand_Mayank_website/files/RESUME_MAYANK_ANAND_salesforce.pdf)
@@ -17,8 +16,8 @@ Salesforce Developer with six years of experience specializing in Service Cloud 
 
 ## Skills:
 
-- Veeva: MCCP, Order Management, Engage, Veeva Insight
 - Salesforce: Apex triggers, classes, batch classes, flows, automation
+- Veeva: MCCP, Order Management, Engage, Veeva Insight
 - Azure API Managment
 - AWS: Lambda, API Gateway, S3
 - Alexa Skills Kit
