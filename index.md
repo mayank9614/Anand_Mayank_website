@@ -10,25 +10,19 @@ I am a Veeva Developer with more than 5 years of experience in designing and dev
 
 
 
-[Download My Resume](/Anand_Mayank_website/files/RESUME_MAYANK_ANAND_Viatris.pdf)
+[Download My Resume](/Anand_Mayank_website/files/RESUME_MAYANK_ANAND_salesforce.pdf)
 
-## Experience:
-
-- Developed custom solutions for Veeva applications, including MCCP, Order Management, Engage, and Veeva Insight modules.
-- Designed and developed custom Veeva integrations with AWS, utilizing services like Lambda, API Gateway, and S3.
-- Developed Alexa Skills for Veeva applications, enabling voice-controlled functionality.
-- Created Apex triggers, classes, batch classes, and flows to automate business processes in Salesforce.
-- Implemented DevOps practices to streamline development, testing, and deployment processes for Salesforce and Veeva applications.
-- Conducted code reviews, provided technical guidance, and collaborated with cross-functional teams to deliver high-quality solutions.
-- Participated in agile development methodologies such as Scrum and Kanban to ensure timely and efficient delivery of projects.
+## Experience
+Salesforce Developer with six years of experience specializing in Service Cloud and Marketing Cloud. Proven track record in the pharmaceutical sector, adept at integration, API management, and delivering tailored solutions. Expertise in driving client success through innovative Salesforce implementations. Salesforce certified with a passion for continuous learning and staying updated with industry trends.
 
 ## Skills:
 
 - Veeva: MCCP, Order Management, Engage, Veeva Insight
 - Salesforce: Apex triggers, classes, batch classes, flows, automation
+- Azure API Managment
 - AWS: Lambda, API Gateway, S3
 - Alexa Skills Kit
-- DevOps: Continuous Integration, Continuous Deployment, Git, Jenkins
+- DevOps: Continuous Integration, Continuous Deployment, Git, Azure
 - HTML/CSS/JavaScript: Front-end web development
 - Python: Back-end web development and scripting
 
