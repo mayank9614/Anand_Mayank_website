@@ -1,43 +1,33 @@
 ---
-layout: home
-title: About
+layout: page
+title: Projects
+permalink: /projects/
 ---
 
-<div class="profile-section">
-    <img src="/Anand_Mayank_website/assets/images/mayank_DP.jpg" alt="Mayank's Profile Picture" class="profile-image" />
-    <div class="content">
-        <h1>About Me</h1>
-        <p>I am a Veeva Developer with more than 6 years of experience in designing and developing custom solutions for Veeva applications. I also have expertise in integrating AWS with Salesforce and developing Alexa Skills.</p>
-        <a href="/Anand_Mayank_website/files/RESUME_MAYANK_ANAND_salesforce.pdf" class="btn">Download My Resume</a>
-    </div>
-</div>
+# My Projects
 
-## Experience
-Salesforce Developer with six years of experience specializing in Service Cloud and Marketing Cloud. Proven track record in the pharmaceutical sector, adept at integration, API management, and delivering tailored solutions. Expertise in driving client success through innovative Salesforce implementations. Salesforce certified with a passion for continuous learning and staying updated with industry trends.
+<div class="project-grid">
+  <div class="project-card">
+    <h3 class="project-title">Chrome Extension</h3>
+    <p class="project-description">A Chrome extension to save URLs.</p>
+    <a href="https://github.com/mayank9614/ChromeExtension_SaveURL" class="btn">View Project</a>
+  </div>
 
-## Skills:
+  <div class="project-card">
+    <h3 class="project-title">Spotify Movie Playlist Search</h3>
+    <p class="project-description">An app to search movie playlists on Spotify.</p>
+    <a href="https://github.com/mayank9614/spotifyAPPMovieSearch" class="btn">View Project</a>
+  </div>
 
-- Veeva: MCCP, Order Management, Engage, Veeva Insight
-- Salesforce: Apex triggers, classes, batch classes, flows, automation
-- Azure API Management
-- AWS: Lambda, API Gateway, S3
-- Alexa Skills Kit
-- DevOps: Continuous Integration, Continuous Deployment, Git, Azure
-- HTML/CSS/JavaScript: Front-end web development
-- Python: Back-end web development and scripting
+  <div class="project-card">
+    <h3 class="project-title">Movie Recommendation</h3>
+    <p class="project-description">An express App built to directly provide you link for movie playlist.</p>
+    <a href="https://github.com/mayank9614/Movie_recommendation_MNN" class="btn">View Project</a>
+  </div>
 
-## Education:
-
-Bachelor of Engineering in Computer Science from BNM Institute of Technology
-
-## Certifications:
-
-ADM 201
-
-## Blog Posts
-
-<div class="blog-posts">
-  {% for post in site.posts %}
-    <a href="{{ site.baseurl }}{{ post.url }}" class="blog-post-button">{{ post.title }}</a>
-  {% endfor %}
+  <div class="project-card">
+    <h3 class="project-title">Alexa Skill Integration with Salesforce</h3>
+    <p class="project-description">Alexa skill connection to get Salesforce records through Alexa voice.</p>
+    <a href="https://github.com/mayank9614/Alexa-Skill-Kit" class="btn">View Project</a>
+  </div>
 </div>
