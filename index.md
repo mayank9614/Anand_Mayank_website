@@ -6,7 +6,7 @@ title: About
 
 # About Me
 
-I am a Veeva Developer with more than 5 years of experience in designing and developing custom solutions for Veeva applications.  I also have expertise in integrating AWS with Salesforce and developing Alexa Skills. 
+I am a Veeva Developer with more than 6 years of experience in designing and developing custom solutions for Veeva applications.  I also have expertise in integrating AWS with Salesforce and developing Alexa Skills. 
 
 
 
@@ -42,5 +42,5 @@ ADM 201
     <a href="{{ site.baseurl }}{{ post.url }}" class="blog-post-button">{{ post.title }}</a>
   {% endfor %}
 </div>
-[Download My Resume](/Anand_Mayank_website/files/RESUME_MAYANK_ANAND_Viatris.pdf)
+
 
