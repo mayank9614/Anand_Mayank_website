@@ -35,7 +35,32 @@ header_pages:
   - projects.md
   - skills.md
   - contacts.md
+# Add these lines to your _config.yml
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
+  - skills.md
+  - contacts.md
 
+# Customize the navigation
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Projects
+    url: /projects/
+  - title: Skills
+    url: /skills/
+  - title: Contact
+    url: /contacts/
+
+# Add your social media profiles
+social_links:
+  twitter: anand_offbeat
+  github: mayank9614
+  linkedin: mayank-anand-11911469
 
 # Exclude from processing.
 # The following items will not be processed, by default.

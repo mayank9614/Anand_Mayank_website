@@ -4,20 +4,20 @@ title: Projects
 permalink: /projects/
 ---
 
-# Projects
+# My Projects
 
-## Chrome Extension
-[GitHub Repository](https://github.com/mayank9614/ChromeExtension_SaveURL)
-A Chrome extension to save URLs.
+<div class="project-grid">
+  <div class="project-card">
+    <h3 class="project-title">Chrome Extension</h3>
+    <p class="project-description">A Chrome extension to save URLs.</p>
+    <a href="https://github.com/mayank9614/ChromeExtension_SaveURL" class="btn">View Project</a>
+  </div>
 
-## spotifyApp to search Movie playlist
-[GitHub Repository](https://github.com/mayank9614/spotifyAPPMovieSearch)
-A Chrome extension to save URLs.
+  <div class="project-card">
+    <h3 class="project-title">Spotify Movie Playlist Search</h3>
+    <p class="project-description">An app to search movie playlists on Spotify.</p>
+    <a href="https://github.com/mayank9614/spotifyAPPMovieSearch" class="btn">View Project</a>
+  </div>
 
-## Movie Recommendation
-[GitHub Repository](https://github.com/mayank9614/Movie_recommendation_MNN)
-An express App built to directly provide you link for movie playlist
-
-## Alexa Skill Integration with salesforce
-[GitHub Repository](https://github.com/mayank9614/Alexa-Skill-Kit)
-Alexa skill connection to get salesforce records through alexa voice
+  <!-- Add more project cards as needed -->
+</div>
