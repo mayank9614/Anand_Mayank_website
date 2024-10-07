@@ -5,7 +5,7 @@ title: Home
 
 <div class="profile-section">
   <div class="profile-image">
-    <img src="{{ 'Anand_Mayank_website//assets/images/mayank_DP.jpg' | relative_url }}" alt="Mayank Anand Avatar" />
+    <img src="{{ 'Anand_Mayank_website/assets/images/mayank_DP.jpg' | relative_url }}" alt="Mayank Anand Avatar" />
   </div>
   <div class="profile-content">
     <h1>Mayank Anand</h1>
