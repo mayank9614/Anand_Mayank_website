@@ -3,7 +3,7 @@ title: Mayank Anand
 email: mayank.96anand@gmail.com
 description: Veeva Developer looking for opportunities in the field of Software Development.
 baseurl: "/Anand_Mayank_website"
-url: "https://mayank9614.github.io/Anand_Mayank_website/"
+url: "https://mayank9614.github.io"
 twitter_username: anand_offbeat
 github_username: mayank9614
 
@@ -13,7 +13,7 @@ plugins:
   - jekyll-feed
 
 # Layout settings
-layout: home
+layout: default
 
 # Navigation
 header_pages:
@@ -53,3 +53,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+# Custom variables
+css_file: Anand_Mayank_website/assets/css/main.css
