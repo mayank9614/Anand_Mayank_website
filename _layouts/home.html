@@ -4,62 +4,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ site.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+            <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
             <nav>
                 <ul>
-                    <li><a href="{{ site.baseurl }}/">Home</a></li>
-                    <li><a href="{{ site.baseurl }}/about/">About</a></li>
-                    <li><a href="{{ site.baseurl }}/projects/">Projects</a></li>
-                    <li><a href="{{ site.baseurl }}/skills/">Skills</a></li>
-                    <li><a href="{{ site.baseurl }}/contacts/">Contact</a></li>
+                    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                    <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+                    <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+                    <li><a href="{{ '/skills/' | relative_url }}">Skills</a></li>
+                    <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main class="container">
-        <h2>Veeva Developer & Salesforce Specialist</h2>
-        
-        <p>With over 6 years of experience, I specialize in designing and developing custom solutions for Veeva applications. My expertise extends to integrating AWS with Salesforce and developing Alexa Skills.</p>
-        
-        <a href="{{ site.baseurl }}/assets/files/RESUME_MAYANK_ANAND_salesforce.pdf" class="btn">Download My Resume</a>
-        
-        <h2>Professional Summary</h2>
-        <p>I am a Salesforce Developer with six years of experience, focusing on Service Cloud and Marketing Cloud. My proven track record in the pharmaceutical sector showcases my proficiency in integration, API management, and delivering tailored solutions. I'm passionate about driving client success through innovative Salesforce implementations and staying updated with industry trends.</p>
-        
-        <h2>Core Competencies</h2>
-        <ul>
-            <li>Veeva Application Development</li>
-            <li>Salesforce Service & Marketing Cloud</li>
-            <li>AWS Integration</li>
-            <li>Alexa Skill Development</li>
-            <li>API Management</li>
-            <li>Custom Solution Design</li>
-        </ul>
-        
-        <h2>Recent Projects</h2>
-        <ol>
-            <li><strong>Veeva CRM Optimization</strong> - Streamlined sales processes for a major pharmaceutical company</li>
-            <li><strong>Salesforce-AWS Integration</strong> - Implemented real-time data synchronization for improved analytics</li>
-            <li><strong>Alexa Skill for Healthcare</strong> - Developed a voice-activated patient engagement tool</li>
-        </ol>
-        
-        <h2>Blog Posts</h2>
-        <ul>
-            {% for post in site.posts limit:3 %}
-            <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-            {% endfor %}
-        </ul>
-        <a href="{{ site.baseurl }}/blog">View All Posts</a>
-        
-        <h2>Let's Connect</h2>
-        <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
-        <a href="{{ site.baseurl }}/contact" class="btn">Contact Me</a>
+        {{ content }}
     </main>
 
     <footer>
@@ -67,6 +31,7 @@
             <p>{{ site.title }} - {{ site.description }}</p>
             <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
             <p>GitHub: <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a></p>
+            <p>Twitter: <a href="https://twitter.com/{{ site.twitter_username }}">{{ site.twitter_username }}</a></p>
         </div>
     </footer>
 </body>
