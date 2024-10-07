@@ -15,44 +15,7 @@ plugins:
 # Layout settings
 layout: default
 
-# Navigation
-header_pages:
-  - index.md
-  - about.md
-  - projects.md
-  - skills.md
-  - contacts.md
-
-navigation:
-  - title: Home
-    url: /
-  - title: About
-    url: /about/
-  - title: Projects
-    url: /projects/
-  - title: Skills
-    url: /skills/
-  - title: Contact
-    url: /contacts/
-
-# Social media profiles
-social_links:
-  twitter: anand_offbeat
-  github: mayank9614
-  linkedin: mayank-anand-11911469
-
-# Exclude from processing
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
 # Custom variables
-css_file: Anand_Mayank_website/assets/css/main.css
+css_file: /assets/css/main.css
+
+# Other settings remain the same...
