@@ -1,0 +1,22 @@
+---
+layout: home
+title: Home
+---
+
+# About Me
+
+<img src="{{ site.baseurl }}/assets/images/mayank_DP.jpg" alt="Mayank's Profile Picture" class="profile-image">
+
+I am a Veeva Developer with more than 6 years of experience in designing and developing custom solutions for Veeva applications. I also have expertise in integrating AWS with Salesforce and developing Alexa Skills.
+
+[Download My Resume]({{ site.baseurl }}/files/RESUME_MAYANK_ANAND_salesforce.pdf){: .btn}
+
+## Experience
+
+Salesforce Developer with six years of experience specializing in Service Cloud and Marketing Cloud. Proven track record in the pharmaceutical sector, adept at integration, API management, and delivering tailored solutions. Expertise in driving client success through innovative Salesforce implementations. Salesforce certified with a passion for continuous learning and staying updated with industry trends.
+
+## Blog Posts
+
+{% for post in site.posts %}
+- [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+{% endfor %}

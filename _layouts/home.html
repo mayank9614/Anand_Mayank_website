@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title }}</title>
+    <title>{{ page.title | default: site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
@@ -17,9 +17,11 @@
                     <span></span>
                 </button>
                 <ul id="menu">
-                    {% for item in site.navigation %}
-                        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-                    {% endfor %}
+                    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                    <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+                    <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+                    <li><a href="{{ '/skills/' | relative_url }}">Skills</a></li>
+                    <li><a href="{{ '/contacts/' | relative_url }}">Contact</a></li>
                 </ul>
             </nav>
         </div>
