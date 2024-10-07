@@ -1,22 +1,136 @@
----
-layout: home
-title: Home
----
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
 
-# About Me
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
-<img src="{{ site.baseurl }}/assets/images/mayank_DP.jpg" alt="Mayank's Profile Picture" class="profile-image">
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 1rem 0;
+}
 
-I am a Veeva Developer with more than 6 years of experience in designing and developing custom solutions for Veeva applications. I also have expertise in integrating AWS with Salesforce and developing Alexa Skills.
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-[Download My Resume]({{ site.baseurl }}/files/RESUME_MAYANK_ANAND_salesforce.pdf){: .btn}
+header h1 {
+  margin: 0;
+}
 
-## Experience
+header h1 a {
+  color: #333;
+  text-decoration: none;
+}
 
-Salesforce Developer with six years of experience specializing in Service Cloud and Marketing Cloud. Proven track record in the pharmaceutical sector, adept at integration, API management, and delivering tailored solutions. Expertise in driving client success through innovative Salesforce implementations. Salesforce certified with a passion for continuous learning and staying updated with industry trends.
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
 
-## Blog Posts
+nav li {
+  margin-left: 20px;
+}
 
-{% for post in site.posts %}
-- [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
-{% endfor %}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+main {
+  padding: 2rem 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #0077be;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #005fa3;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  header .container {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  nav {
+      margin-top: 1rem;
+      width: 100%;
+  }
+
+  #menu-toggle {
+      display: block;
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      align-self: flex-end;
+  }
+
+  #menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+  }
+
+  #menu.active {
+      display: flex;
+  }
+
+  nav li {
+      margin: 10px 0;
+  }
+
+  .profile-image {
+      float: none;
+      margin: 0 auto 20px;
+      display: block;
+  }
+}
