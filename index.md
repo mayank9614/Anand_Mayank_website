@@ -11,7 +11,7 @@ title: Home
     <h1>Mayank Anand</h1>
     <h2>Veeva Developer & Salesforce Specialist</h2>
     <p>With over 6 years of experience, I specialize in designing and developing custom solutions for Veeva applications. My expertise extends to integrating AWS with Salesforce and developing Alexa Skills.</p>
-    <a href="{{ '/assets/files/RESUME_MAYANK_ANAND_salesforce.pdf' | relative_url }}" class="btn">Download My Resume</a>
+    <a href="{{ 'Anand_Mayank_website/assets/files/RESUME_MAYANK_ANAND_salesforce.pdf' | relative_url }}" class="btn">Download My Resume</a>
   </div>
 </div>
 
