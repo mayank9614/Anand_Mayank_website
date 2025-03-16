@@ -1,33 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>About Me</title>
-    <link rel="stylesheet" type="text/css" href="/css/Style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Mayank Anand</title>
+    <link rel="stylesheet" type="text/css" href="../css/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <h1>About Me</h1>
-    <p>veeva developer interested in software development
-    Check out my personal projects:
-        <ul> 
-            <li>
-            <a href="https://white-moss-0dfa67f10.4.azurestaticapps.net/">Search your movie playlist on spotify</a>
-            </li>
-            <li>
-                <a href="https://github.com/mayank9614/ChromeExtension_SaveURL">An extension to save all open tabs in text format</a>  
-            </li>
-            <li>
-                <a href="https://github.com/mayank9614/LeetCode_commits">My attempt at leetcode</a><ul></ul>
-            </li>
-    
-        </ul>
-
-
-        <a href="/assets/Resume/RESUME_MAYANK_ANAND_Viatris.pdf" download="RESUME_MAYANK_ANAND_Viatris.pdf">Download My Resume</a>
-    </p>
-
-
-    <p><a href="index.html">Return to Home</a></p>
-
- 
+    <div class="container">
+        <header>
+            <h1>About Me</h1>
+            <a href="../index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+        </header>
+        
+        <section class="about-content">
+            <p class="intro">I'm a Veeva developer passionate about software development and creating innovative solutions.</p>
+            
+            <h2>My Projects</h2>
+            <ul class="projects-list"> 
+                <li>
+                    <a href="https://white-moss-0dfa67f10.4.azurestaticapps.net/" target="_blank">
+                        <i class="fas fa-music"></i> Search your movie playlist on Spotify
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/mayank9614/ChromeExtension_SaveURL" target="_blank">
+                        <i class="fab fa-chrome"></i> Chrome Extension to save all open tabs in text format
+                    </a>  
+                </li>
+                <li>
+                    <a href="https://github.com/mayank9614/LeetCode_commits" target="_blank">
+                        <i class="fas fa-code"></i> My LeetCode solutions repository
+                    </a>
+                </li>
+            </ul>
+            
+            <div class="resume-download">
+                <a href="../assets/Resume/RESUME_MAYANK_ANAND_Viatris.pdf" download="RESUME_MAYANK_ANAND_Viatris.pdf" class="download-button">
+                    <i class="fas fa-file-download"></i> Download My Resume
+                </a>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
